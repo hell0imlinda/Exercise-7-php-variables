@@ -1,8 +1,8 @@
 <?php
   $title = 'Variables';
   $name = 'Linda';
-  $sum = 4+4;
-  $sum2 = 3+3;
+  $sum = 10+3;
+  $sum2 = 7+4;
   $sum3 = $sum + $sum2;
 
   // Let's get the age based on birth year
