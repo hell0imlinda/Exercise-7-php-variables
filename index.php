@@ -1,5 +1,5 @@
 <?php
-  $title = 'Variables';
+  $title = 'PHP Variables';
   $name = 'Linda';
   $sum = 10+3;
   $sum2 = 7+4;
