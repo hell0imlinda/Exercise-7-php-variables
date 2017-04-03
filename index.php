@@ -4,6 +4,10 @@
   $sum = 10+3;
   $sum2 = 7+4;
   $sum3 = $sum + $sum2;
+  $difference= $sum - $sum2;
+  $difference2= $sum2 - $sum3;
+  $difference3= $difference2 - $sum;
+
 
   // Let's get the age based on birth year
   $currentYear = date("Y");
@@ -66,6 +70,9 @@
       <p><strong>The first <code>$sum</code> variable is:</strong> <?php echo $sum; ?></p>
       <p><strong>The second <code>$sum2</code> variable is:</strong> <?php echo $sum2; ?></p>
       <p><strong>The third <code>$sum3</code> variable is:</strong> <?php echo $sum3; ?></p>
+      <p><strong>The first <code>$difference</code> variable is:</strong> <?php echo $difference; ?></p>
+      <p><strong>The second <code>$difference2</code> variable is:</strong> <?php echo $difference2; ?></p>
+      <p><strong>The third <code>$difference3</code> variable is:</strong> <?php echo $difference3; ?></p>
     </main>
   </body>
 </html>
